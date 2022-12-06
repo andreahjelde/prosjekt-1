@@ -1,0 +1,33 @@
+header{
+    background-color: black;
+    padding: 1.5rem;
+    margin: 0rem;
+    white-space: nowrap;
+}
+
+
+header h1{
+    color: white;
+    display: inline-block;
+}
+
+
+.knappHeader{
+    border-style: none;
+    font: 1rem Arial, sans-serif;
+    color: white;
+    display: inline-block;
+    
+    /* Set up the hover */
+    /* If you aren't using autoprefix, remember to prefix the gradient for other browsers */
+    background-image: linear-gradient(white, white), linear-gradient(black, black);
+    background-size: 0 1px, auto;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    transition: all .2s ease-out;
+    
+}
+    
+.knappHeader:hover{
+    background-size: 100% 2px, auto;
+}
