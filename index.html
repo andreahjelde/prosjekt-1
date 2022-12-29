@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="header.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="footer.css">
     <title>RADA</title>
 </head>
 
@@ -13,29 +16,241 @@
 <body>
     <header>
         <div class="boks1">
-            <img class="logo" src="radaLogo.png" alt="logo">
-        <ul>
-            <button class="meny">Om oss</button>
-            <button class="meny">Jobbe her?</button>
-            <button class="meny">Kontakt</button>
+            <img class="logo" src="bilder/radaLogo.png" alt="logo">
+        <ul class="meny"> 
+            <a href="#boks3">Om oss</a>
+            <a href="#boks5">Jobbe her?</a>
+            <a href="#nede">Kontakt oss</a>
         </ul>
-            
     </div>
     
         <div class="boks2">
-            <img class="bilde1" src="bilde1.jpg" alt="skrivebord">
             <h1 class="tekstBilde">Vi bygger Norges råeste techmiljø</h1>
         </div>
         
     </header>
     
     <main>
+        <button onclick="topFunction()" id="myBtn" title="Til topp">Til topp</button>
+        
+        <div id="boks3">
+            
+            <h1>Hvem er Rada?</h1>
+            <p>Hos oss er vi alle utviklere, og vi setter utviklerne i sentrum.<br>
+                Hva er ditt drømmeprosjekt?<br>
+                Hva skal til for at du får ut ditt potensiale?<br>
+                Vi har spennende prosjekter på oppdrag for kunder og egne innovasjonsprosjekter.<br>
+                Vi former arbeidshverdagen etter hva som funker best for hver enkelt av oss.<br>
+                Vi har det morsomt på jobb fordi karriereutvikling skjer best med lave skuldre.<br>
+        </div>
 
+        
+        <div class="boks4">
+            <span class="redLine"></span>
+            <div class="ansatte1">
+                <h1>Våre folk</h1>
+            </div>
+
+            <div class="ansatte2">
+                <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
+                <div class="ansattBoks">
+                    <h2>Thomas Lindsjørn</h2>
+                    <p>Senior Utvikler</p>
+                    <p>Thomas har 10 års erfaring som utvikler, både som konsulent og inhouse. 
+                        Har jobbet med apper som RuterReise, Tidal Music og NRK TV. 
+                        Lidenskapelig opptatt av applikasjonsarkitektur, 
+                        arbeidsmetodikk og hvordan å dyrke kultur for det ultimate utviklingsteam. 
+                        Thomas underviser også i apputvikling og arkitektur hver vår på Institutt for Informatikk ved Universitetet i Oslo. <br>
+                       <br> Thomas liker alle former for trening, og er ofte å finne i Nordmarka når han ikke er på jobb. 
+                        Han sier aldri nei til et slag lynsjakk. Helst på Good Knight i Torggata, der har de også god whiskey.
+                    </p>
+                </div>
+            </div>
+
+            <div class="ansatte2">
+                <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
+                <div class="ansattBoks">
+                    <h2>Niclas Halvorsen</h2>
+                    <p>Senior Android Utvikler</p>
+                    <p>
+                        Han er helt rå i Android utvikling og har mer enn 10 år erfaring i området. 
+                        Blant annet har han jobbet flere år i strømmetjenesten Tidal Music, 
+                        bank og finans sektoren i Sparebank 1 og med helse-infrastruktur for utviklingsland. 
+                        “Umulig” finnes ikke i hans vokabular. 
+                        Han er veldig pragmatisk og har evnen til å forstå og løse vanskelige problemstillinger på 
+                        en rask og effektiv måte.<br>
+                        <br>Niclas har også en bachelorgrad i Dataingeniør-fag fra Høgskolen i Oslo og 
+                        en mastergrad i Programmering og Nettverk fra Universitetet i Oslo.
+                    </p>
+                </div>
+            </div>
+
+            <div class="ansatte2">
+                <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
+                <div class="ansattBoks">
+                    <h2>Øystein Gammersvik</h2>
+                    <p>Senior Backend utvikler</p>
+                    <p>
+                        Øystein er en systemutvikler med fem års erfaring som backend-utvikler i Java. 
+                        Han har bachelor fra NITH og master fra UiO. 
+                        Tidligere har han erfaring fra prosjekter hos NSB, Nets og UiO.<br>
+                        <br>Øystein liker å gå i dybden på teknologiene han jobber med, samtidig som han er glad i alle 
+                        verktøy og rammeverk som kan effektivisere kode-hverdagen. 
+                        Han er opptatt av at prosjektene han jobber med skal løse reelle 
+                        behov på en god, trygg og brukervennlig måte. 
+                        Øystin er sosial og omgjengelig, og samler på fjelltopper og kilometer på fritiden.
+                    </p>
+                </div>
+            </div>
+
+
+        
+            <div class="ansatte2">
+                <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
+                <div class="ansattBoks">
+                    <h2>Bence Daniel Søke</h2>
+                    <p>Frontendutvikler</p>
+                    <p>
+                        Bence er en allsidig frontendutvikler med god erfaring i react. 
+                        Han har jobbet med flere webapplikasjoner, blandt annet innen sikkerhet, 
+                        webbasserte gis/kartverk og sanntidsbaserte systemer. 
+                        Bence er spesielt interessert i universell utforming og vi lage 
+                        løsninger som er tilgjengelig for alle. 
+                        Har også erfaring som tech lead og kan bidra med teknisk rådgivning for 
+                        komplette applikasjoner, fra back- til frontend med fokus på ytelse, 
+                        effektivitet, skalerbarhet og sikkerhet.<br>
+                        <br>På fritiden er Bence like allsidig; for tiden går det i trening, turer, soppsanking, 
+                        klatring og generell nerding med progging/gaming. Bence sier aldri nei til en fest, 
+                        energinivået er alltid på topp på Rada sine sosiale lag!
+                    </p>
+                </div>
+            </div>
+        
+            <div class="ansatte2">
+                <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
+                <div class="ansattBoks">
+                    <h2>Sander Opperud Odden</h2>
+                    <p>Backend utvikler</p>
+                    <p>
+                        Backendutvikler med forkjærlighet for Kotlin. J
+                        obber gjerne med moderne tech stacks som Ktor/Spring Boot, Kafka, Docker, Kubernetes og GCP/AWS/Azure. 
+                        God på mikrotjenester, REST, hendelsesbaserte systemer, CI og monitorering. 
+                        Sander motiveres av å utvikle gode modeller som speiler domenet. 
+                        Han er opptatt av kvalitet både på kode, metode og prosess. 
+                        Har også erfaring med å ta tekniske valg og velge retning på prosjektene han har jobbet med.<br>
+                       <br> Sander er initiativrik, ressurssterk og liker å samarbeide i team. 
+                        På fritiden liker han å trene, spille paddle med venner og ellers fordype seg i klokker.
+                    </p>
+                </div>
+            </div>
+
+            <div class="ansatte2">
+                <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
+                <div class="ansattBoks">
+                    <h2>Jenny Nergård</h2>
+                    <p>Internship / Utvikler i opplæring</p>
+                    <p>
+                        Jenny fullfører studier ved Oslo Metropolitan, med fordypning i Programmering. 
+                        Hun er en ressurssterk kvinne som har en allsidig bakgrunn, 
+                        bl.a. fra militæret, idrett- og treningslære, medier- og kommunikasjon, kundeservice og helsesektoren. 
+                        Jenny setter seg raskt inn i nye oppgaver og trives foran dataskjermen.<br>
+                        <br>Jenny liker å være sosial på fritiden og er med på de fleste aktiviteter. 
+                        Ellers er hun en kreativ sjel med sans for fotografering og tegning.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <span class="redLine"></span>
+        <div id="boks5">
+            
+            <h2>Join the team!</h2>
+            <p>Vil du jobbe sammen med oss?<br>
+                Vi tilbyr kule oppdrag, faglige utfordringer, dyktige kollegaer, 
+                og sjansen til å bidra på de mest spennende prosjektene i Norge.<br>
+                Vårt nettverk av oppdragsgivere og merittliste i bransjen gjør at du kan velge oppdrag med frihet.<br>
+                
+               <br> Kontakt oss gjerne for en uformell prat på thomas@rada.no
+            </p>
+        </div>
+
+        <div class="boks6">
+            <div class="lederstjerner">
+                <h2>Ledestjerner / Senior Utviklere</h2>
+                <p>
+                    Vil du jobbe teknisk med faget ditt og samtidig være mentor for yngre utviklere?<br>
+                    Er du superdyktig med maskiner og verktøy, men like god med mennesker?<br>
+                    Vi søker utviklere innen iOS, web/frontend og backend.<br>
+
+                    <br>Som Ledestjerne innen din avdeling vil du:
+                
+                </p>
+                <ul>
+                    <li>jobbe med én eller flere spennende prosjekter samtidig</li>
+                    <li>bidra med tyngde som senior på prosjekter med andre konsulenter</li>
+                    <li>ha det overordnede ansvaret for teknisk kvalitet</li>
+                    <li>bidra til faglige og sosiale arrangementer</li>
+                </ul>
+            </div>
+
+            <div class="utviklereOGnyutdannede">
+                <div class="utviklere">
+                    <h2>Utviklere</h2>
+                    <p>
+                        Har du erfaring som utvikler og ønsker å jobbe i et dynamisk og spennende miljø? 
+                        Hos oss vil du få mulighet til å bidra på masse spennende prosjekter og ha dyktige, 
+                        erfarne kollegaer å jobbe sammen med.
+                    </p>
+                </div>
+
+                <div class="nyutdannede">
+                    <h2>Nyutdannede</h2>
+                    <p>
+                        Er lærevillig, lidenskapelig opptatt av teknologi og ønsker å jobbe med kule prosjekter? 
+                        Hos oss vil du få en designert senior / Ledestjerne som guider deg inn i den fantastiske verden som utvikler
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <span class="redLine"></span>
+        <div class="boks7">
+            
+            <div class="tidligereKunder">
+                 <h2>Noen av våre nåværende og tidligere kunder</h2>
+            </div>
+            <div class="kunder">
+                <p>Sparebank 1</p>
+                <p>Nrk TV</p>
+                <p>UiO</p>
+                <p>Huawei</p>
+            </div>
+        </div>
+
+        <script src="index.js"></script>
     </main>
+    
     
 
     <footer>
+        <div id="nede"></div>
+            <div class="boks8">
+                <h2>Du når oss med</h2>
+                <p>thomas@rada.no</p>
+                <p>+47 95 20 24 46</p>
+            </div>
 
+            <div class="boks8">
+                <h2>Du finner oss</h2>
+                <p>Rosenkrantz gate 4</p>
+                <p>0159 Oslo</p>
+            </div>
+
+            <div class="boks8">
+                <h2>Bedriftsinformasjon</h2>
+                <p>Rada Tech As</p>
+                <p>Org.nr.1111111</p>
+            </div>
+        
     </footer>
 </body>
 
