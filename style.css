@@ -21,7 +21,7 @@ body {
 }
 
 
-#knappTopp {
+.knappTopp {
     display: none;
     position: fixed;
     bottom: 20px;
@@ -33,4 +33,9 @@ body {
     color: white;
     cursor: pointer;
     padding: 15px;
+}
+
+.knappToppPaa {
+    display: block;
+    transition: ease-in 0.3s;
 }

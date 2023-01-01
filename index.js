@@ -1,17 +1,22 @@
 
 
-let myButton = document.getElementById("knappTopp");
+let myButton = document.querySelector(".knappTopp");
+let scroll = 0;
+window.onscroll = function (e) {
 
-window.onscroll = function () {
+
     scrollFunction();
+    scroll = window.scrollY;
 };
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-        myButton.style.display = "block";
+    const newScroll = window.scrollY
+    const skjermhoyde = window.innerHeight
+    if (newScroll < scroll && newScroll > skjermhoyde) {
+        myButton.classList.add("knappToppPaa");
     }
     else {
-        myButton.style.display = "none";
+        myButton.classList.remove("knappToppPaa");
     }
 }
 

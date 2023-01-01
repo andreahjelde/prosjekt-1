@@ -72,10 +72,6 @@ main {
 
 
 /*BOKS 7 - NÅVÆRENDE OG TIDLIGERE KUNDER*/
-.boks7 {}
-
-.tidligereKunder {}
-
 .kunder {
     display: flex;
     flex-direction: row;
