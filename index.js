@@ -1,6 +1,6 @@
 
 
-let myButton = document.getElementById("myBtn");
+let myButton = document.getElementById("knappTopp");
 
 window.onscroll = function () {
     scrollFunction();
