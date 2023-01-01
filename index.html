@@ -15,16 +15,16 @@
 
 <body>
     <header>
-        <div class="boks1">
+        <div class="headerWrapper">
             <img class="logo" src="bilder/radaLogo.png" alt="logo">
         <ul class="meny"> 
-            <a href="#boks3">Om oss</a>
-            <a href="#boks5">Jobbe her?</a>
-            <a href="#nede">Kontakt oss</a>
+            <a class="menyknapp" href="#boks3">Om oss</a>
+            <a class="menyknapp" href="#boks5">Jobbe her?</a>
+            <a class="menyknapp" href="#nede">Kontakt oss</a>
         </ul>
     </div>
     
-        <div class="boks2">
+        <div class="motto">
             <h1 class="tekstBilde">Vi bygger Norges råeste techmiljø</h1>
         </div>
         
@@ -33,8 +33,7 @@
     <main>
         <button onclick="topFunction()" id="knappTopp" title="Til topp">Til topp</button>
         
-        <div id="boks3">
-            
+        <div id="hvemEr">
             <h1>Hvem er Rada?</h1>
             <p>Hos oss er vi alle utviklere, og vi setter utviklerne i sentrum.<br>
                 Hva er ditt drømmeprosjekt?<br>
@@ -44,14 +43,13 @@
                 Vi har det morsomt på jobb fordi karriereutvikling skjer best med lave skuldre.<br>
         </div>
 
-        
-        <div class="boks4">
-            <span class="redLine"></span>
-            <div class="ansatte1">
+        <span class="redLine"></span>
+
+        <div class="ansatteWrapper wrapper">
+            <div class="overskriftAnsatte">
                 <h1>Våre folk</h1>
             </div>
-
-            <div class="ansatte2">
+            <div class="ansatte">
                 <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
                 <div class="ansattBoks">
                     <h2>Thomas Lindsjørn</h2>
@@ -67,7 +65,7 @@
                 </div>
             </div>
 
-            <div class="ansatte2">
+            <div class="ansatte">
                 <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
                 <div class="ansattBoks">
                     <h2>Niclas Halvorsen</h2>
@@ -85,7 +83,7 @@
                 </div>
             </div>
 
-            <div class="ansatte2">
+            <div class="ansatte">
                 <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
                 <div class="ansattBoks">
                     <h2>Øystein Gammersvik</h2>
@@ -105,7 +103,7 @@
 
 
         
-            <div class="ansatte2">
+            <div class="ansatte">
                 <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
                 <div class="ansattBoks">
                     <h2>Bence Daniel Søke</h2>
@@ -126,7 +124,7 @@
                 </div>
             </div>
         
-            <div class="ansatte2">
+            <div class="ansatte">
                 <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
                 <div class="ansattBoks">
                     <h2>Sander Opperud Odden</h2>
@@ -144,7 +142,7 @@
                 </div>
             </div>
 
-            <div class="ansatte2">
+            <div class="ansatte">
                 <div class="ansattBilde"><img class="ansikt" src="bilder/ansikt.jpg" alt="ansikt"></div>
                 <div class="ansattBoks">
                     <h2>Jenny Nergård</h2>
@@ -161,8 +159,8 @@
             </div>
         </div>
         <span class="redLine"></span>
-        <div id="boks5">
-            
+
+        <div class="joineTeamWrapper wrapper">
             <h2>Join the team!</h2>
             <p>Vil du jobbe sammen med oss?<br>
                 Vi tilbyr kule oppdrag, faglige utfordringer, dyktige kollegaer, 
@@ -173,7 +171,7 @@
             </p>
         </div>
 
-        <div class="boks6">
+        <div class="jobbHosOssWrapper wrapper">
             <div class="lederstjerner">
                 <h2>Ledestjerner / Senior Utviklere</h2>
                 <p>
@@ -213,8 +211,7 @@
         </div>
 
         <span class="redLine"></span>
-        <div class="boks7">
-            
+        <div class="tidligereKunderWrapper wrapper">
             <div class="tidligereKunder">
                  <h2>Noen av våre nåværende og tidligere kunder</h2>
             </div>
@@ -232,20 +229,19 @@
     
 
     <footer>
-        <div id="nede"></div>
-            <div class="boks8">
+            <div class="info">
                 <h2>Du når oss med</h2>
                 <p>thomas@rada.no</p>
                 <p>+47 95 20 24 46</p>
             </div>
 
-            <div class="boks8">
+            <div class="info">
                 <h2>Du finner oss</h2>
                 <p>Rosenkrantz gate 4</p>
                 <p>0159 Oslo</p>
             </div>
 
-            <div class="boks8">
+            <div class="info">
                 <h2>Bedriftsinformasjon</h2>
                 <p>Rada Tech As</p>
                 <p>Org.nr.1111111</p>

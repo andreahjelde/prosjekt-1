@@ -1,9 +1,13 @@
 * {
     box-sizing: border-box;
     font-family: sans-serif;
-    line-height: 1.3rem;
-
 }
+
+html {
+    scroll-behavior: smooth;
+    margin: 0;
+}
+
 
 body {
     display: flex;
@@ -12,10 +16,9 @@ body {
     align-items: center;
     background-color: black;
     color: white;
+    margin: 0;
+    gap: 3rem;
 }
-
-
-
 
 
 #knappTopp {
